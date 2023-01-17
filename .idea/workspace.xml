@@ -4,10 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23831197-057e-4f9d-a9ad-d1b6a820ce84" name="Changes" comment="Dzień 6 cucumber - Zadanie3">
+    <list default="true" id="cfa0cd18-aabb-4f8b-9fc9-dea20db19758" name="Changes" comment="Zadania domowe">
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/Exam-test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/registration-hotel.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamAddressForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamUserLogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ChooseArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/UserSignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelregister/HotelRegisterSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelregister/HotelRegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/NewJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/AuthenticationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/BookNowHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/CreateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/HomePageSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LogInUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/testHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/testHotel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCheckConfig/FunkcjeSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCheckConfig/Waits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cucumber/Features/user-addresses.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cucumber/Features/user-addresses.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/hotelAddresses/UserAddressesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelAddresses/UserAddressesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +58,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2Ij9S8ap9mOCzk23XMML5K7pGLJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,12 +71,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Danko/Desktop/Test aut/Zadania warsztatowe",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danko\Desktop\Test aut\Zadania_warsztatowe" />
+      <recent name="C:\Users\Danko\Desktop\Test aut\Zadania warsztatowe" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.UserAddressesTest">
     <configuration name="Scenario: user can search any keyword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />

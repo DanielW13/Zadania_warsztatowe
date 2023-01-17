@@ -1,5 +1,6 @@
 package Homework;
 
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,10 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 
 public class Zad3 {
-    public static void main(String[] args) {
+    @Test
+
+    public void Homework3() {
+
         WebDriver driver = new ChromeDriver();
 
         String FirstName = "Karol";

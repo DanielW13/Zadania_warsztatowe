@@ -1,14 +1,15 @@
 package Homework;
 
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
 public class Zad2 {
-        public static void main (String[]args){
+        @Test
+                public void Homework2() {
             WebDriver driver = new EdgeDriver();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
