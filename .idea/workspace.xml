@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa0cd18-aabb-4f8b-9fc9-dea20db19758" name="Changes" comment="Zadania domowe">
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/Exam-test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cucumber/Features/registration-hotel.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamAddressForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamUserLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ChooseArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/UserSignIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelregister/HotelRegisterSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hotelregister/HotelRegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/NewJunit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/AuthenticationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/BookNowHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/CreateAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/HomePageSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LogInUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/testHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/testHotel2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCheckConfig/FunkcjeSelenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCheckConfig/Waits.java" afterDir="false" />
+    <list default="true" id="cfa0cd18-aabb-4f8b-9fc9-dea20db19758" name="Changes" comment="Zadania dzień 6 selenium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/Zad4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/Zad4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,39 +59,33 @@
       <recent name="C:\Users\Danko\Desktop\Test aut\Zadania warsztatowe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserAddressesTest">
-    <configuration name="Scenario: user can search any keyword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Cucumber/Features/google-text-search.feature" />
-      <option name="GLUE" value="cucumber.googleSearch" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="JUnit.ExamTest1">
+    <configuration name="ExamTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
-      <option name="NAME_FILTER" value="^user can search any keyword$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user can search any keyword$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user can search any keyword" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Zad_warsztat1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Zad_warsztat1" />
+      <option name="MAIN_CLASS_NAME" value="Zad_warsztat1.ExamTest1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookRoomTest.bookRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="popZadania.*" />
+          <option name="PATTERN" value="Zad_warsztat2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="popZadania" />
-      <option name="MAIN_CLASS_NAME" value="popZadania.BookRoomTest" />
-      <option name="METHOD_NAME" value="bookRoomTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Zad_warsztat2" />
+      <option name="MAIN_CLASS_NAME" value="Zad_warsztat2.ExamTest2" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExamTest1" />
+        <item itemvalue="JUnit.ExamTest2" />
         <item itemvalue="JUnit.UserAddressesTest" />
         <item itemvalue="JUnit.HotelRegistrationTest" />
         <item itemvalue="JUnit.GoogleSearchTest" />
-        <item itemvalue="Cucumber Java.Scenario: user can search any keyword" />
-        <item itemvalue="JUnit.BookRoomTest.bookRoomTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671374401150</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Zadania dzień 6 selenium">
+      <created>1673970814418</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970814418</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Zadania dzień 6 selenium">
+      <created>1673971070315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673971070315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +270,7 @@
     <MESSAGE value="Dzień 6 cucumber - Zadanie 3" />
     <MESSAGE value="Dzień 6 cucumber - Update to Java 19" />
     <MESSAGE value="Dzień 6 cucumber - Zadanie3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dzień 6 cucumber - Zadanie3" />
+    <MESSAGE value="Zadania dzień 6 selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadania dzień 6 selenium" />
   </component>
 </project>

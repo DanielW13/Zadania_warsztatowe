@@ -45,7 +45,7 @@ public class ExamTest2 {
 
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(scrFile, new File("C:\\Users\\Danko\\Desktop\\Test aut\\tmp\\screenExam1.jpg"));
+            FileUtils.copyFile(scrFile, new File("C:\\Users\\Danko\\Desktop\\Test aut\\tmp\\screenExam2.jpg"));
         } catch (IOException s) {
             throw new RuntimeException(s);
         }
