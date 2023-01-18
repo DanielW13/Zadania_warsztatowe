@@ -43,18 +43,19 @@ public class ExamTest2 {
         OrderVerification orderVerification = new OrderVerification(driver);
         orderVerification.AddressVerification();
 
+        //zrzut ekranu
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(scrFile, new File("C:\\Users\\Danko\\Desktop\\Test aut\\tmp\\screenExam2.jpg"));
+            FileUtils.copyFile(scrFile, new File("C:\\Users\\Danko\\Desktop\\Test aut\\tmp\\screenExam.jpg"));
         } catch (IOException s) {
             throw new RuntimeException(s);
         }
 
-        //dodatkowe zadania
+        //wejście w historie zamówień
         driver.findElement(By.xpath("//*[@id=\"_desktop_user_info\"]/div/a[2]/span")).click();
         driver.findElement(By.xpath("//*[@id=\"history-link\"]/span")).click();
 
-
+        //sprawdzenie czy zamówienie zostało poprawnie złożone
         OrderCheck orderCheck = new OrderCheck(driver);
         orderCheck.OrderListCheck();
     }

@@ -14,7 +14,7 @@ import java.time.Duration;
 public class ExamTest {
 
     
-    private WebDriver driver;
+    protected WebDriver driver;
 
     
     String email = "10minut@email.com";

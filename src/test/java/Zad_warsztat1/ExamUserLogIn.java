@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ExamUserLogIn {
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     public ExamUserLogIn(WebDriver driver){this.driver = driver;}
 

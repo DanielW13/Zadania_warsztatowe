@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ExamAddressForm {
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     public ExamAddressForm(WebDriver driver){this.driver = driver;}
 
