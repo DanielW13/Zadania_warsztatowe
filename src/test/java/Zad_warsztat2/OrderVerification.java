@@ -1,5 +1,6 @@
 package Zad_warsztat2;
 
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -27,7 +28,7 @@ public class OrderVerification {
         if (verification.contains(address) && verification.contains(city) && verification.contains(zipCode) && verification.contains(country)) {
             System.out.println("Data is correct");
         } else {
-            System.out.println("Data is incorrect");
+            Assertions.fail("Data is incorrect");
         }
 
         //przejście do wyboru dostawy

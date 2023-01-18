@@ -1,5 +1,6 @@
 package Zad_warsztat2;
 
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -22,7 +23,7 @@ public class OrderCheck {
         if (listCheck.contains(orderNumber) && listCheck.contains(invoice) && listCheck.contains(price)) {
             System.out.println("Order correctly placed");
         } else {
-            System.out.println("Order incorrectly placed");
+            Assertions.fail("Order incorrectly placed");
         }
     }
 }

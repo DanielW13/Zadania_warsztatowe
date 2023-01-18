@@ -7,16 +7,17 @@ import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
 public class ExamTest {
 
-    
+
     protected WebDriver driver;
 
-    
+
     String email = "10minut@email.com";
 
     String password = "123456";
@@ -24,7 +25,7 @@ public class ExamTest {
     String delete = "Address successfully deleted!";
 
 
-    
+
     @Given("user is on main site and click signIn button")
     public void userIsOnMainSiteAndClickSignInButton() {
         driver = new ChromeDriver();
@@ -36,7 +37,7 @@ public class ExamTest {
     @When("user input email address and password and click sign in button")
     public void userInputEmailAddressAndPasswordAndClickSignInButton() {
         ExamUserLogIn examUserLogIn = new ExamUserLogIn(driver);
-        examUserLogIn.SignIn(email,password);
+        examUserLogIn.SignIn(email, password);
     }
 
     @When("user clicks an addresses button")
@@ -52,7 +53,7 @@ public class ExamTest {
     @When("user fills in the new address form with {}, {}, {}, {}, {}, {} and clicks save button")
     public void userFillsInTheNewAddressFormWithAliasAddressCityZipCodeCountryPhone(String alias, String address, String city, String zipCode, String country, String phone) {
         ExamAddressForm examAddressForm = new ExamAddressForm(driver);
-        examAddressForm.AddressForm(alias, address, city, zipCode, country,phone);
+        examAddressForm.AddressForm(alias, address, city, zipCode, country, phone);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/form/footer/button")).click();
     }
 
@@ -62,22 +63,30 @@ public class ExamTest {
 
         if (addressData.contains(alias) && addressData.contains(address) && addressData.contains(city) && addressData.contains(zipCode) && addressData.contains(country) && addressData.contains(phone)) {
             System.out.println("Data is correct");
-        }
-        else {
-            System.out.println("Data is incorrect");
+        } else {
+            Assertions.fail("Data is incorrect");
         }
     }
+
 
     @Then("user deletes new address")
     public void userDeletesNewAddress() {
         driver.findElement(By.xpath("/html/body/main/section/div/div/section/section/div[2]/article/div[2]/a[2]/span")).click();
     }
 
-    @Then("user checks positive deletion")
-    public void userChecksPositiveDeletion() {
+    @Then("user checks positive deletion {}")
+    public void userChecksPositiveDeletion(String alias) {
         String correctdeletion = driver.findElement(By.xpath("//*[@id=\"notifications\"]/div/article/ul/li")).getText();
+        String checkAlias = driver.findElement(By.xpath("//*[@id=\"content\"]")).getText();
+        if (checkAlias.contains(alias)) {
+            Assertions.fail("Negative deletion");
+        }
+        else {
+            System.out.println("Positive deletion");
+        }
         Assertions.assertTrue(correctdeletion.contains(delete));
         System.out.println(correctdeletion);
+        //sprawdzic ilosc adresow przed usunieciem i po usunieciu
     }
 
     @And("user closes browser")

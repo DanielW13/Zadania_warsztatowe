@@ -37,10 +37,9 @@ public class ChooseArticle {
         catch (InterruptedException q) {
             throw new RuntimeException(q);
         }
-       addPiece.click(); //driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[1]/div/span[3]/button[1]/i")).click();
-       addPiece.click(); //driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[1]/div/span[3]/button[1]/i")).click();
-       addPiece.click(); //driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[1]/div/span[3]/button[1]/i")).click();
-       addPiece.click(); //driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[1]/div/span[3]/button[1]/i")).click();
+        for (int i = 0; i < 4; i++) {
+            addPiece.click();
+        }
 
         //dodanie do koszyka
         driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[2]/button")).click();

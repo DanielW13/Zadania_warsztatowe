@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa0cd18-aabb-4f8b-9fc9-dea20db19758" name="Changes" comment="Zadania dzień 6 selenium">
+    <list default="true" id="cfa0cd18-aabb-4f8b-9fc9-dea20db19758" name="Changes" comment="Zadania warsztatowe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamAddressForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamAddressForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cucumber/Features/Exam-test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cucumber/Features/Exam-test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamUserLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat1/ExamUserLogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ChooseArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ChooseArticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/ExamTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad_warsztat2/OrderVerification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="C:\Users\Danko\Desktop\Test aut\Zadania warsztatowe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamTest2">
+  <component name="RunManager" selected="JUnit.ExamTest1">
     <configuration name="ExamTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
@@ -142,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExamTest2" />
         <item itemvalue="JUnit.ExamTest1" />
+        <item itemvalue="JUnit.ExamTest2" />
         <item itemvalue="JUnit.UserAddressesTest" />
         <item itemvalue="JUnit.HotelRegistrationTest" />
         <item itemvalue="JUnit.GoogleSearchTest" />
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673971070315</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Zadania warsztatowe">
+      <created>1674045090921</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674045090922</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +284,7 @@
     <MESSAGE value="Dzień 6 cucumber - Update to Java 19" />
     <MESSAGE value="Dzień 6 cucumber - Zadanie3" />
     <MESSAGE value="Zadania dzień 6 selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadania dzień 6 selenium" />
+    <MESSAGE value="Zadania warsztatowe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadania warsztatowe" />
   </component>
 </project>

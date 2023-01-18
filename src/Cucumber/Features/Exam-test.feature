@@ -7,7 +7,7 @@ Feature: Exam test
     When user fills in the new address form with <alias>, <address>, <city>, <zipCode>, <country>, <phone> and clicks save button
     Then user checks the entered data <alias>, <address>, <city>, <zipCode>, <country>, <phone>
     Then user deletes new address
-    Then user checks positive deletion
+    Then user checks positive deletion <alias>
     And user closes browser
 
     Examples:
